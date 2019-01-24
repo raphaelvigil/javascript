@@ -1,0 +1,32 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+		<title>Using Element IDs</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<!-- 1st Column -->
+		<div class="col rams-blue center-content" id="rams-column">
+			<!-- IN THIS TASK WE ARE MAKING THE IMAGES (NOT THE DIVS) CLICKABLE -->
+			<img src="images/rams_logo.png" class="restrict-img-size" onclick="allOpaque(this)" id="rams-img"/>
+		</div>
+		
+		<!-- 2nd Column -->
+		<div class="col center-content" onclick="showTrophy(this)">
+			<img src="" class="restrict-img-size" id="wat"/>
+		</div>
+		
+		<!-- 3rd Column -->
+		<div class="col pats-silver center-content" id="pats-column">
+			<!-- IN THIS TASK WE ARE MAKING THE IMAGES (NOT THE DIVS) CLICKABLE -->
+			<img src="images/pats_logo.png" class="restrict-img-size" onclick="removeColor(this)" id="pats-img"/>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>
