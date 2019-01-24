@@ -29,6 +29,6 @@ function showTrophy(el){
 		document.images["rams-img"].src = "images/rams_logo.png"
 		document.images["wat"].src = ""
 		document.images["pats-img"].src = "images/pats_logo.png"
-		i = "0"
+		i = "0";
 	}
 }
