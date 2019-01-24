@@ -23,5 +23,12 @@ function showTrophy(el){
 	else if (i == "1"){
 		document.images["wat"].src = "images/lombardi_trophy.png";
 		document.images["pats-img"].src = "images/lombardi_trophy.png";
+		i = "2";
+	}
+	else (i == "2"){
+		document.images["rams-img"].src = "images/rams_logo.png"
+		document.images["wat"].src = ""
+		document.images["pats-img"].src = "images/pats_logo.png"
+		i = "0"
 	}
 }
