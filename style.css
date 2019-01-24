@@ -34,3 +34,7 @@ body {
 .opaque {
 	opacity: 0.25;
 }
+p {
+	text-align: center;
+	
+}
